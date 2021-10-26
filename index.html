@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>SSL Project Overview</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="body-main">
+        <h1>Library Management System</h1>
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li style="float:right"><a href="progress.html">Progress</a></li>
+        </ul>
+        <p style="font-size: x-large;color: cornsilk;">Click on below links to know more...</p>
+        <div class="media">
+            <div class="media-body">
+                <h3 class="media-heading" onclick="dintro()">Introduction</h3>
+                <p id="disintro" class="media-content" style="display: none">Nowadays,the necessity for lesser
+                    interaction
+                    at a public place has increased due to the ongoing pandemic.<br>This library management system will
+                    serve
+                    as an online library for students where students can place orders for books they
+                    wish to borrow.<br>They can pick up their order from the library with minimal
+                    physical contact.<br>The system will have an administration login and user login.
+                    The features for the two different types of login will be different.</p>
+            </div>
+            <div class="media-body">
+                <h3 class="media-heading" onclick="features()">Features of the system</h3>
+                <h3 class="media-heading2" id="inputDatabase" onclick="inputDa()" style="display: none">Input/Database
+                </h3>
+                <p id="inputContent" class="media-content" style="display: none"> A database containing several
+                    tables.The tables will include information about the student user IDs and passwords as well as those
+                    of the administration
+                    users.<br>
+                    Tables containing data like the title,author,publisher,etc corresponding to the books will also be
+                    created.<br>
+                    Every student has a unique ID for identification</p>
+                <h3 class="media-heading2" id="operations" onclick="operations()" style="display: none">Operations</h3>
+                <h3 class="media-heading3" id="administration" onclick="disA()" style="display: none">Administration
+                </h3>
+                <p id="adminsContent" class="media-content" style="display: none"> • Login<br>
+                    • Searching for books using the title,author,publisher etc.<br>
+                    • Viewing the fine the student has to pay<br>
+                    • Placing an order for books<br>
+                    • Returning a book</p>
+                <h3 class="media-heading3" id="userStu" onclick="disUser()" style="display: none">User/Student</h3>
+                <p id="userContent" class="media-content" style="display: none"> • Login<br>
+                    • Adding books<br>
+                    • Updating the books<br>
+                    • Deleting the books<br>
+                    • Viewing the orders placed by the users<br>
+                    • Searching for books<br>
+                    • Viewing the list of books</p>
+                <h3 class="media-heading3" id="output" onclick="disOut()">Outputs</h3>
+                <p id="disoutput" class="media-content" style="display: none"> • Displaying the available books when
+                    the search
+                    operation is implemented<br>
+                    • Displaying the list of books to the Admin<br>
+                    • Displaying the orders that have been places<br>
+                    • Displaying the pending fine to the User if any</p>
+            </div>
+            <div class="media-body">
+                <h3 class="media-heading" onclick="implement()">Implementation</h3>
+                <p id="disimplem" class="media-content" style="display: none"> HTML, CSS, Javascript, PHP and MySQL will
+                    be used for the implementation of the project as of now.</p>
+            </div>
+        </div>
+        <footer style="font-size: small;color: cornsilk;">
+            Website Coming Soon
+        </footer>
+    </div>
+</body>
+
+</html>

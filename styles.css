@@ -1,0 +1,201 @@
+html {
+    min-height: 100%;
+    min-width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background: -webkit-linear-gradient( to left top, #5babda, #2769a7);
+    background: -moz-linear-gradient( to left top, #5babda, #2769a7);
+    background: -ms-linear-gradient( to left top, #5babda, #2769a7);
+    background: -o-linear-gradient( to left top, #5babda, #2769a7);
+    background: linear-gradient( to left top, #5babda, #2769a7);
+}
+
+body {
+    font-family: ui-rounded;
+}
+
+.body-main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 25px;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 50px;
+    line-height: 1.4;
+    padding: 10px;
+    color: white;
+}
+
+.media {
+    align-items: center;
+    background: #bdddd3;
+    padding: 1.5em;
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+.media-heading {
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(122, 73, 214);
+}
+
+.media-heading2 {
+    font-size: x-large;
+    text-align: center;
+    display: none;
+    color: rgb(123, 71, 219);
+}
+
+.media-heading3 {
+    font-size: large;
+    text-align: center;
+    display: none;
+    color: rgb(142, 99, 223);
+}
+
+.media-heading:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+    color: rgb(60, 60, 240);
+    cursor: pointer;
+}
+
+.media-heading2:hover {
+    -ms-transform: scale(1.3);
+    /* IE 9 */
+    -webkit-transform: scale(1.3);
+    /* Safari 3-8 */
+    transform: scale(1.3);
+    color: rgb(60, 60, 240);
+    cursor: pointer;
+}
+
+.media-heading3:hover {
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.5);
+    color: rgb(60, 60, 240);
+    cursor: pointer;
+}
+
+.media-body:hover {
+    color: rgb(56, 43, 43);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(to top left, #993ece, #811f34);
+    background-color: #993ece;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(65, 74, 155);
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.card {
+    color: #045b8d;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(121, 63, 63, 0.3);
+    background: #bdddd3;
+    border-radius: 7px;
+}
+
+.card:hover {
+    color: rgb(165, 6, 170);
+    box-shadow: 10px 10px 15px rgba(145, 92, 182, .4);
+    -ms-transform: scale(1.2);
+    /* IE 9 */
+    -webkit-transform: scale(1.2);
+    /* Safari 3-8 */
+    transform: scale(1.2);
+    color: rgb(60, 60, 240);
+}
+
+.card .text {
+    padding: 0 20px 20px;
+}
+
+.card .text>input {
+    background: gray;
+    border: 1px;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+.card .text>input:hover {
+    background: rgb(77, 76, 76);
+    box-shadow: 10px 10px 15px rgba(145, 92, 182, .4);
+    cursor: pointer;
+}
+
+.screenshot {
+    color: #045b8d;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(121, 63, 63, 0.3);
+    background: #bdddd3;
+    border-radius: 7px;
+}
+
+.screenshot:hover {
+    color: rgb(165, 6, 170);
+    box-shadow: 10px 10px 15px rgba(145, 92, 182, .4);
+    -ms-transform: scale(1.05);
+    /* IE 9 */
+    -webkit-transform: scale(1.05);
+    /* Safari 3-8 */
+    transform: scale(1.05);
+    color: rgb(60, 60, 240);
+}
