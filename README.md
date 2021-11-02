@@ -1,5 +1,5 @@
 # SahithyTumma.github.io
-Software Systems Lab Github Assignment-
+https://sahithytumma.github.io/<br />
+Software Systems Lab Github Assignment<br />
 Overview of SSL Group Project-
-Library Mnagement System<br />
-https://sahithytumma.github.io/
+Library Management System
